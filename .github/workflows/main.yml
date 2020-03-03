@@ -1,13 +1,5 @@
-name: CI
-
-on: [push]
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: TheDoctor0/zip-release@v0.2.1
-    - with:
-        filename: release.zip
+- name: mThermal
+  uses: TheDoctor0/zip-release@v0.2.1
+  with:
+    # Filename for archive
+    filename: release.zip
