@@ -1,5 +1,11 @@
-- name: mThermal
-  uses: TheDoctor0/zip-release@v0.2.1
-  with:
-    # Filename for archive
-    filename: release.zip
+name: mThermal
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Archive Release
+      uses: thedoctor0/zip-release@master
+      with:
+        filename: 'release.zip'
