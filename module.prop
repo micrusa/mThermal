@@ -1,6 +1,6 @@
 id=mThermal
-name=mThermal Stock
-version=v1
-versionCode=1
+name=mThermal Balanced
+version=v2
+versionCode=2
 author=micrusa
-description=Thermal mod for Redmi Note 7
+description=Thermal mod for Redmi Note 7. This module can damage your device! Use it at your own risk
